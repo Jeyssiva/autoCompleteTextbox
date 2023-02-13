@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={`/google-maps-icon.png`} className="App-logo" alt="logo" />
+        <img src={`./google-maps-icon.png`} className="App-logo" alt="logo" />
         <Places/>
       </header>
     </div>

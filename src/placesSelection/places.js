@@ -21,7 +21,7 @@ export default function PlaceSelection() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    fetch('API/importantPlaces.json')
+    fetch('./API/importantPlaces.json')
     .then(res => res.json())
     .then(data => {
         setPlaces(data.places)
@@ -37,6 +37,8 @@ export default function PlaceSelection() {
       return eachPlace.categories.find(each => parseInt(each) === parseInt(event.target.value)) || false
     });
 
+    setInputValue('')
+    setValue('')
     setPlaces(filterPlaces)
   }
 
