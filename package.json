@@ -2,7 +2,7 @@
   "name": "react-redux-saga-textcomplete",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jeyssiva.github.io/findPlaceswithMap",
+  "homepage": "https://jeyssiva.github.io/autoCompleteTextbox/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
