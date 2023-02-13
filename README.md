@@ -7,6 +7,9 @@ Architecture - Redux.
 
 **Note: FYI, React-map-gl expects the valid access token and it is not working properly without valid token, so i have applied mapbox-gl and If get the token from Mapbox account, the account requests the billing information. So, I am used the token from public dataset from OpenStreetMap (OSM).The marker is not pinned the location properly due to public token.Kindly note it.**
 
+### `npm install`
+
+Install the packages from package.json 
 ### `npm start`
 
 Runs the app in the development mode.\
