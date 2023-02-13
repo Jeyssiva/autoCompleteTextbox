@@ -5,6 +5,11 @@ Component - React hooks and higher order components \
 EcmaScript - ES6.\
 Architecture - Redux.
 
+Features : \
+1. Marker pin is draggable, so the coordinates and place name will be changed based on pin movement.\
+2. Based on map's zoom, the coordinates and place name will be changed.\
+3. Split up the places based on selected category.
+
 **Note: FYI, React-map-gl expects the valid access token and it is not working properly without valid token, so i have applied mapbox-gl and If get the token from Mapbox account, the account requests the billing information. So, I am used the token from public dataset from OpenStreetMap (OSM).The marker is not pinned the location properly due to public token.Kindly note it.**
 
 ### `npm install`
