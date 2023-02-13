@@ -1,4 +1,11 @@
-**Note: FYI, React-map-gl expects the valid access token and If get the token from Mapbox account, then the account requests the billing information. So, I am using token from public dataset from OpenStreetMap (OSM).So, the marker is not pinned properly due to public token**
+# Description - Locate the places using AutoComplete and show it them map
+
+Middleware - Redux Saga
+Component - React hooks and higher order components
+EcmaScript - ES6.
+Architecture - Redux.
+
+**Note: FYI, React-map-gl expects the valid access token and it is not working properly without valid token, so i have applied mapbox-gl and If get the token from Mapbox account, the account requests the billing information. So, I am used the token from public dataset from OpenStreetMap (OSM).So, the marker is not pinned the location properly due to public token.Kindly note it.**
 
 ### `npm start`
 
