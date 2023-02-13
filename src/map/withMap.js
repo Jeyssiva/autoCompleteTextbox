@@ -17,7 +17,6 @@ export const withMap = (WrappedComponent) => {
 
      // Initialize map when component mounts
     useEffect(() => {
-
         if(!selectedPlace) return null
 
         setLng(selectedPlace.longitude ? selectedPlace.longitude : lng)
@@ -64,7 +63,7 @@ export const withMap = (WrappedComponent) => {
             setZoom(map.getZoom().toFixed(2));
             setPlaceName(retrieveLocationDetails([map.getCenter().lng, map.getCenter().lat]))
         });
-        map.getContainer().classList.remove("mapboxgl-control-container");
+        map.getContainer().lastChild.remove(); //"mapboxgl-control-container"
 
         const updateMarker = () => {
             marker.setLngLat(map.unproject([map.getCanvas().clientWidth/2, map.getCanvas().clientHeight/2]));

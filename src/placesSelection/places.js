@@ -55,7 +55,7 @@ export default function PlaceSelection() {
       >
         {
           categories && categories.map(eachItem => {
-            return <FormControlLabel value={eachItem.id} control={<Radio/>} label={eachItem.name}/>
+            return <FormControlLabel value={eachItem.id} key={eachItem.id} control={<Radio/>} label={eachItem.name}/>
           })
         }
       </RadioGroup>
@@ -76,7 +76,7 @@ export default function PlaceSelection() {
         dispatch(getSelectPlace(newInputValue))
       }}
       renderOption={(props, option) => (
-        <Box component="li" sx={{ '& > img': { mr: 2, flexShrink: 0 } }} {...props}>
+        <Box component="li" {...props}>
           <LocationOnIcon/>
           {option.name}
         </Box>
