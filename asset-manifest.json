@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/findPlaceswithMap/static/css/main.c78eb727.css",
+    "main.js": "/findPlaceswithMap/static/js/main.a0a8ec65.js",
+    "index.html": "/findPlaceswithMap/index.html",
+    "main.c78eb727.css.map": "/findPlaceswithMap/static/css/main.c78eb727.css.map",
+    "main.a0a8ec65.js.map": "/findPlaceswithMap/static/js/main.a0a8ec65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c78eb727.css",
+    "static/js/main.a0a8ec65.js"
+  ]
+}

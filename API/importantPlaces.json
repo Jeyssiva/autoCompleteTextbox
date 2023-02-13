@@ -1,0 +1,27 @@
+{
+    "places" : [
+        {"name" : "Bako National Park", "longitude" : 110.469702, "latitude" : 1.433869 , "zoom": 12, "categories": [5,1]},
+        {"name" : "Batu Caves", "longitude" :101.688747 , "latitude" : 3.253661, "zoom": 12, "categories": [2,3,5,1]},
+        {"name" : "Borneo Rainforest Lodge", "longitude" :115.624748 , "latitude" : 3.558639, "zoom": 12, "categories": [5,1]},
+        {"name" : "Cameron Highlands", "longitude" : 101.387727, "latitude" : 4.483693, "zoom": 11, "categories": [4,5,1]},
+        {"name" : "Danum Valley", "longitude" : 117.827124, "latitude" : 4.425836, "zoom": 12, "categories": [2,5,1]},
+        {"name" : "George Town, Penang", "longitude" : 100.328873, "latitude" : 5.417816, "zoom": 13, "categories": [4,1]},
+        {"name" : "Gunung Mulu National Park", "longitude" : 114.745536, "latitude" : 4.064708, "zoom": 12,"categories": [4,5,1]},
+        {"name" : "Ipoh", "longitude" : 101.082976, "latitude" : 4.588642, "zoom": 12, "categories": [4,5,1]},
+        {"name" : "Johor Bahru", "longitude" : 103.757813, "latitude" : 1.465027 , "zoom": 11, "categories": [4,5,1]},
+        {"name" : "Kinabalu National Park", "longitude" : 116.679291, "latitude" : 6.077567, "zoom": 10, "categories": [5,1]},
+        {"name" : "Sri Maha Mariamman Temple", "longitude" : 101.6932, "latitude" : 3.1465, "zoom": 13, "categories": [3,5,1]},
+        {"name" : "Thean Hou Temple", "longitude" : 101.6756, "latitude" : 3.1348, "zoom": 13, "categories": [3,5,1]},
+        {"name" : "Cheng Hoon Teng Temple", "longitude" : 102.2429, "latitude" : 3.1465, "zoom": 13,"categories": [3,5,1]},
+        {"name" : "Sam Poh Tong Temple", "longitude" : 101.2124, "latitude" : 4.5866, "zoom": 12,"categories": [3,5,1]},
+        {"name" : "Baram, Sarawak", "longitude" :115.6075, "latitude" : 3.4636, "zoom": 9.87,"categories": [2,1]},
+        {"name" : "Apau Ping", "longitude" :115.6084, "latitude" : 3.3853, "zoom":  9.25,"categories": [2,1]}
+    ],
+    "categories" :[
+        {"id":1, "name": "All"},
+        {"id":2, "name":"Streets"},
+        {"id":3, "name":"Temples"},
+        {"id":4, "name": "Cities"},
+        {"id":5, "name":"Famous Locations"}
+    ]
+}
